@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color6"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RunFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/view_journeys"
+                android:layout_width="400dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:elevation="105dp"
+                app:cardCornerRadius="20dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card1"/>
+
+                <ImageView
+                    android:id="@+id/view_journeys_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="6dp"
+                    app:srcCompat="@drawable/day_running"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="90dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="날짜별 달리기 조회"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="날짜별로 달리기를 조회해보세요!"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:id="@+id/free_running"
+                android:layout_width="400dp"
+                android:layout_height="160dp"
+                android:elevation="105dp"
+                app:cardCornerRadius="20dp"
+                android:layout_gravity="center"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card2"/>
+
+                <ImageView
+                    android:id="@+id/free_running_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="left|center"
+                    app:tint="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="6dp"
+                    app:srcCompat="@drawable/free_running" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:text="자유 달리기"
+                    android:paddingBottom="90dp"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기록을 측정하며 달려보세요!"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/view_this_week"
+                android:layout_marginTop="10dp"
+                android:layout_width="400dp"
+                android:layout_height="160dp"
+                android:elevation="105dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="20dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card3"/>
+
+                <ImageView
+                    android:id="@+id/view_this_week_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="20dp"
+                    app:tint="@color/white"
+                    android:layout_marginBottom="6dp"
+                    app:srcCompat="@drawable/running_rec" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:paddingBottom="90dp"
+                    android:text="이번주 달리기 기록"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="이번주 달리기를 조회해보세요!"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginBottom="80dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/view_running_gide"
+                android:layout_width="400dp"
+                android:layout_height="160dp"
+                android:elevation="105dp"
+                app:cardCornerRadius="20dp"
+                android:layout_gravity="center"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card4"/>
+
+                <ImageView
+                    android:id="@+id/view_running_gide_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="left|center"
+                    app:tint="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="6dp"
+                    app:srcCompat="@drawable/running_guide" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="90dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="러닝 가이드"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="러닝 가이드를 통해 학습해보세요!"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

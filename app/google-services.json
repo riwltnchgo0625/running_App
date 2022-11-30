@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "229584297924",
+    "project_id": "runwithme-4783a",
+    "storage_bucket": "runwithme-4783a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229584297924:android:c26864c6a2422b76644e91",
+        "android_client_info": {
+          "package_name": "com.example.javachipnavigationbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229584297924-55hesm1fjl27btergikk8isc8r7fahhp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.javachipnavigationbar",
+            "certificate_hash": "445d54c14bde174219f4ae646b3f747a4701455e"
+          }
+        },
+        {
+          "client_id": "229584297924-5so5gcih9t54gbmlgeslbm9etrpkt64p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0MSOtWGXjWcoYZ-L7GRJph8GonN3vtMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229584297924-5so5gcih9t54gbmlgeslbm9etrpkt64p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

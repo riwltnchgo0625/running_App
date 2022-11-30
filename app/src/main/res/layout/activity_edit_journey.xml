@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Running.EditJourney"
+    android:orientation="vertical"
+    android:background="@color/main_color6">
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기록 수정"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/background_3"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:text="제목을 입력하세요." />
+
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:textColorHint="#ffffff"
+            android:backgroundTint = "#FEC141"
+            android:textColor="#ffffff"
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginRight="20dp"
+            android:hint="오늘 달리기"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="코멘트를 입력해주세요." />
+
+        <EditText
+            android:id="@+id/commentEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FEC141"
+            android:ems="10"
+            android:hint="코멘트를 작성해주세요."
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="별점" />
+
+        <!--<EditText
+            android:id="@+id/ratingEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="3"
+            android:inputType="number" />-->
+        <RatingBar
+            android:progressBackgroundTint="@color/white"
+            android:progressTint="@color/main_color"
+            android:secondaryProgressTint="@color/main_color"
+            android:rating="3"
+            android:id="@+id/ratingBarInficator"
+            android:stepSize="1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:numStars="5"
+            android:layout_marginLeft="10dp"
+            android:isIndicator="false"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/journeyImg"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/single_running" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded2"
+            android:onClick="onClickChangeImage"
+            android:text="이미지 변경"
+            android:elevation="8dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@drawable/rounded2"
+            android:onClick="onClickSave"
+            android:padding="8dp"
+            android:elevation="8dp"
+            android:text="저장하기"
+            android:textColor="@color/black"
+            android:theme="@style/FlatButton"
+            app:backgroundTint="#DDBCBC"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</LinearLayout>

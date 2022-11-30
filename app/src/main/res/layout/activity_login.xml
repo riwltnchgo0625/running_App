@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color2"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Login">
+
+
+
+    <TextView
+        android:paddingBottom="10dp"
+        android:drawableTop="@drawable/ic_baseline_directions_run_24"
+        android:drawableTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Run With Me"/>
+
+
+    <EditText
+        android:drawableStart="@drawable/account"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:backgroundTint="@color/main_color"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableTint="@color/white"
+        android:drawablePadding="10dp"
+        android:backgroundTint="@color/main_color"
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="비밀번호"
+        android:maxLines="1"
+        android:textColorHint="@color/grey"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="로그인"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded2"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="계정이 없습니까?"/>
+
+        <TextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/go_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가입하기"
+            android:textColor="@color/main_color"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>

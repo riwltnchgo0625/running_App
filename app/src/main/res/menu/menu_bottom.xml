@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor = "#FFFFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_baseline_account_circle_1"
+        android:title="내 정보"
+        app:cnb_backgroundColor="@color/main_color"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"/>
+
+    <item
+        android:id="@+id/start"
+        android:icon="@drawable/ic_baseline_directions_run_24"
+        android:title="달리기/기록"
+        app:cnb_backgroundColor="@color/main_color"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"/>
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_1"
+        android:title="홈"
+        app:cnb_backgroundColor="@color/main_color"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"/>
+
+    <item
+        android:id="@+id/record"
+        android:icon="@drawable/ic_baseline_access_alarm_24"
+        android:title="Record"
+        app:cnb_backgroundColor="@color/main_color"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"/>
+
+    <item
+        android:id="@+id/discover"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="목표 달성"
+        app:cnb_backgroundColor="@color/main_color"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"/>
+</menu>

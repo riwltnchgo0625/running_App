@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JavaChipNavigationBar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+
+
+    <!--Community-->
+    <string name="enter_caption">여기에 내용을 입력하세요.</string>
+    <string name="add_post">글 올리기</string>
+    <string name="add_comment">작성하기</string>
+    <string name="write_Comment">댓글을 작성하세요</string>
+</resources>

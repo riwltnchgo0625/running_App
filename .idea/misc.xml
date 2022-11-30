@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/activity_message.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/activity_profile_edit.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/activity_register.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/activity_select_friend.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/fragment_chat.xml" value="0.225" />
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/fragment_people.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/item_chat.xml" value="0.264" />
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/item_friend.xml" value="0.2" />
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/item_friend_select.xml" value="0.1" />
+        <entry key="..\:/Users/yeon1/AndroidStudioProjects/recent/app/src/main/res/layout/item_msg.xml" value="0.2" />
+        <entry key="..\:/android_projects_coll/recent/app/src/main/res/layout/activity_group_message.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_projects_coll/recent/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_projects_coll/recent/app/src/main/res/layout/activity_select_friend.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_projects_coll/recent/app/src/main/res/layout/fragment_chat.xml" value="0.36614583333333334" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/background_4.xml" value="0.1" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/ic_baseline_access_alarm_24.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/ic_baseline_account_circle_1.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/ic_baseline_directions_run_24.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/ic_baseline_home_1.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/mylocation.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/profile_edit_round.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/drawable/round_sign.xml" value="0.11203703703703703" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_community.xml" value="0.17603850050658562" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_edit_journey.xml" value="0.1824074074074074" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_maps.xml" value="0.24351851851851852" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_profile_edit.xml" value="0.13" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_register.xml" value="0.24814814814814815" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_run_guide.xml" value="0.11740890688259109" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_statistics.xml" value="0.1482889733840304" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_view_journeys.xml" value="0.25833333333333336" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/activity_view_single_journey.xml" value="0.14351851851851852" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/fragment_account.xml" value="0.17603850050658562" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/fragment_home.xml" value="0.22870370370370371" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/fragment_run.xml" value="0.25" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/layout/journeylist.xml" value="0.15412186379928317" />
+        <entry key="..\:/android_projects_coll/recent0613/app/src/main/res/menu/menu_bottom.xml" value="0.14351851851851852" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
